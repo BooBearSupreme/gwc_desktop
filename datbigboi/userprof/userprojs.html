@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <script src= "userprojs.js"></script>
+  <meta name="google-signin-client_id" content="150233025343-qlv2ccv0db1o6907b5d4tk4l1i5tnkat.apps.googleusercontent.com">
+  <link href="bootstrap.css" rel="bootstrap" type="text/css">
+  <link href="https://raw.githubusercontent.com/lipis/bootstrap-social/gh-pages/bootstrap-social.css" type="text/css">
+  <link href="bootstrap-social.css" type="text/css">
+
+  <title>Hillary</title>
+</head>
+<body>
+
+
+   <section id="SignIn">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Sign In</h2>
+          <div class="g-signin2" data-onsuccess="onSignIn"></div>
+            <a href="#" onclick="onSignIn()"></a>
+            <a href="#" onclick="signOut();">Sign out</a>
+            <a href="#" onclick = "$();">Sign in</a>
+            <a class="btn btn-block btn-social btn-twitter">
+              <span class="fa fa-twitter"></span> Sign in with Twitter
+            </a>
+          <!-- <a class="btn btn-block btn-social btn-twitter" onclick="_gaq.push(['_trackEvent', 'btn-social', 'click', 'btn-md']);">
+            <i class="fa fa-twitter"></i>Sign in with Twitter</a> -->
+            </div>
+
+    </div>
+    <!-- <div class="row text-center">
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+        </span>
+
+      </div> -->
+    </div>
+  </section>
+
+</body>
+</html>

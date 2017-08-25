@@ -1,0 +1,20 @@
+
+ul li {
+  color: red;
+  font-size: 40px;
+}
+
+ol {
+  background-image: url("https://www.petdrugsonline.co.uk/images/page-headers/cats-master-header");
+  background-repeat: no-repeat;
+  background-size: cover 3px red;
+  margin: 20%;
+  border: solid 3px red;
+  background-color: gray;
+}
+
+ol li {
+  color: purple;
+  font-size: 45px;
+  font-family: Arial;
+}

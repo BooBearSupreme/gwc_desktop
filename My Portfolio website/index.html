@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel= "stylesheet" type="text/css" href="exstylesheet.css">
+</head>
+
+<body>
+
+  <!--TO DO:
+      1. add classes/ids and appropriate divs
+      2. add css to make horizontal nav bar
+      3. add a tags so tabs link to somewhere
+    -->
+     <!-- class can be used by multiple elements, id only used once -->
+  <div class="nav-bar">
+  <h1>Hello, world</h1>
+  <ul class="nav">
+    <li>About</li>
+    <li>Contact</li>
+    <li>Projects</li>
+    <li>Press</li>
+  </ul>
+</div>
+
+<!-- IF YOU USE AN ID YOU CAN ONLY CHANGE ONE ELEMENT, BUT YOU CAN CREATE RULES FOR IT -->
+  <!--TO DO:
+    1. add classes/ids
+    2. create appropriate containers
+    3. style h2 and button
+    4. hide the image section
+    5. write javascript to display image section on click
+    6. write javascript to color images on mouseover
+  -->
+  <div class="section">
+  <h2>Making websites is fun!</h2>
+  <button id= "creations" onclick= "displayImages()">Click here for some of my creations</button>
+  </div>
+  <!-- include () in diplayImages() bc it a function -->
+
+<div class= "images" id="unhide">
+  <img src="img/web-one.jpg">
+  <img src="img/web-two.jpg">
+  <img src="img/web-three.jpg">
+  <img src="img/web-four.jpg">
+</div>
+
+  <script src="exindexjavasc.js"></script>
+</body>
+
+</html>

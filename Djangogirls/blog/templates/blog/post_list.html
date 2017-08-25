@@ -1,0 +1,23 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href= "{% static 'css/blog.css'%}">
+  <!-- fill dis out l8r -->
+</head>
+<body>
+  <h1> test birch</h1>
+
+<p>
+  {% for post in posts %}
+  <div>
+    <h2>{{ post.title}}</h2>
+    <p>published at:{{post.published_date}}</p>
+    <p>{{post.text}}</p>
+  </div>
+    {% endfor %}
+  </p>
+
+</body>
+</html>

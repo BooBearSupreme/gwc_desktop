@@ -1,0 +1,46 @@
+/* exstylesheet for index.html*/
+body{
+  /*background-color: purple;*/
+}
+.nav-bar{
+  text-align: center;
+}
+
+.nav-bar h1 {
+    font-size: 100px;
+    color: midnightblue;
+    border-bottom: solid 2px black;
+}
+.nav{
+  padding: 0;
+}
+.nav li{
+  list-style: none;
+  /*gets rid of bullet points*/
+  /*border: solid 1px;*/
+  font-size: 20px;
+  display: inline;
+  text-align: center;
+  padding: 0 50px;
+  /*direction goes top right bottom left for padding*/
+  /*1st number is top and bottom, second number is left and right*/
+
+}
+.section {
+  border: solid 2px midnightblue;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.images{
+  background-color: blue;
+  display: none;
+}
+.images img{
+  display: block;
+  margin: 30px auto;
+  /*space between top and bottom of pictures*/
+  width: 50%;
+  /*it is 50% of the size of the div
+  if use % instead of px, all resize to bleh....*/
+}
